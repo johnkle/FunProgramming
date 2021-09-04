@@ -1,2 +1,0 @@
-# FunProgramming
-Fun Programming!
