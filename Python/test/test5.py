@@ -22,8 +22,10 @@ def check(window,words):
 
 dct = {'Sun': ['Sole', 3], 'Moon': ['Luna', 0], 'Mercury': ['Mercurio', 0], 'Venus': ['Venere', 16]}
 res = {k:v for k,v in sorted(dct.items(),key = lambda x:x[1][1],reverse=True)}
+
+dct = collections.Counter([1,2,2,3,3]).most_common()
 if __name__ == "__main__":
-    print(res)
+    print(dct)
 
 
 

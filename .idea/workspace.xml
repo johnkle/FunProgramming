@@ -30,7 +30,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
   </component>
-  <component name="RunManager" selected="Python.osmodual">
+  <component name="RunManager" selected="Python.test5">
     <configuration name="osmodual" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="IDE代码" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,8 +75,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.osmodual" />
         <item itemvalue="Python.test5" />
+        <item itemvalue="Python.osmodual" />
       </list>
     </recent_temporary>
   </component>
