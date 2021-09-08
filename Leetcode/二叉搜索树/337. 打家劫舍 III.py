@@ -6,6 +6,7 @@ class TreeNode:
 
 class Solution:
     def rob(self, root):
+        # todo
         #搜索每个节点不偷或偷的最高金额[notrobbed,robbed]
         def dfs(node):
             if not node:

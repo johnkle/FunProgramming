@@ -12,7 +12,19 @@ class Solution(object):
                 dp[i] = max(dp[i],dp[j]+nums[i])
         return max(dp)
 
-class Solution2(object):
+class Solution2:
+    def rob(self, nums):
+        if len(nums) == 1:
+            return nums[0]
+        #dp[i][0]盗取第i间房获得的最高金额，dp[i][1]不盗取第i间房获得的最高金额
+        dp = [[0,0] for _ in range(len(nums))]
+        dp[0] = [nums[0],0]
+        for i in range(1,len(dp)):
+            dp[i][0] = dp[i-1][1]+nums[i]
+            dp[i][1] = max(dp[i-1])
+        return max(dp[-1])
+
+class Solution3(object):
     def rob(self, nums):
         if not nums:
             return 0
